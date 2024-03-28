@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chord In Keys</title>
+    <link rel="stylesheet" href="chord.css">
+</head>
+<body>
+    <form>
+        <h1>Chords In Key</h1>
+        <div class="key">
+            <div class="CM">
+                <input type="radio" name="Key" id="CM_Am" value="CM_Am">
+                <label for="CM_Am"class = "label">C Major or A Minor</label>
+            </div>
+            <div class="GM">
+                <input type="radio" name="Key" id="GM_Em" value="GM_Em">
+                <label for="GM_Em"class = "label">G Major or E Minor</label>
+            </div>
+            <div class="DM">
+                <input type="radio" name="Key" id="DM_Bm" value="DM_Bm">
+                <label for="DM_Bm"class = "label">D Major or B Minor</label>
+            </div>
+            <div class="AM">
+                <input type="radio" name="Key" id="AM_F#m" value="AM_F#m">
+                <label for="AM_F#m"class = "label">A Major or F# Minor</label>
+            </div>
+            <div class="EM">
+                <input type="radio" name="Key" id="EM_C#m" value="EM_C#m">
+                <label for="EM_C#m"class = "label">E Major or C# Minor</label>
+            </div>
+            <div class="BM">
+                <input type="radio" name="Key" id="BM_G#m" value="BM_G#m">
+                <label for="BM_G#m"class = "label">B Major or G# Minor</label>
+            </div>
+            <div class="FsharpM">
+                <input type="radio" name="Key" id="F#M_D#m" value="F#M_D#m">
+                <label for="F#M_D#m"class = "label">F# Major or D# Minor</label>
+            </div>
+            <div class="CsharpM">
+                <input type="radio" name="Key" id="C#M_A#m" value="C#M_A#m">
+                <label for="C#M_A#m"class = "label">C# Major or A# Minor</label>
+            </div>
+            <div class="FM">
+                <input type="radio" name="Key" id="FM_Dm" value="FM_Dm">
+                <label for="FM_Dm"class = "label">F Major or D Minor</label>
+            </div>
+            <div class="BflatM">
+                <input type="radio" name="Key" id="BbM_Gm" value="BbM_Gm">
+                <label for="BbM_Gm"class = "label">Bb Major or G Minor</label>
+            </div>
+            <div class="EflatM">
+                <input type="radio" name="Key" id="EbM_Cm" value="EbM_Cm">
+                <label for="EbM_Cm"class = "label">Eb Major or C Minor</label>
+            </div>
+            <div class="AflatM">
+                <input type="radio" name="Key" id="AbM_Fm" value="AbM_Fm">
+                <label for="AbM_Fm"class = "label">Ab Major or F Minor</label>
+            </div>
+            <div class="DflatM">
+                <input type="radio" name="Key" id="DbM_Bbm" value="DbM_Bbm">
+                <label for="DbM_Bbm"class = "label">Db Major or Bb Minor</label>
+            </div>
+            <div class="GflatM">
+                <input type="radio" name="Key" id="GbM_Ebm" value="GbM_Ebm">
+                <label for="GbM_Ebm"class = "label">Gb Major or Eb Minor</label>
+            </div>
+            <div class="CflatM">
+                <input type="radio" name="Key" id="CbM_Abm" value="CbM_Abm">
+                <label for="CbM_Abm"class = "label">Cb Major or Ab Minor</label><br><br>
+            </div>
+            <button onclick="check_and_alert()">Confirm</button>
+        </div>
+    </form>
+    <script src="chord.js"></script>
+</body>
+</html>

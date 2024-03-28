@@ -1,0 +1,74 @@
+body{
+    background-color: teal;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: orange;
+    font-family: cursive;
+    text-shadow: 3px 3px royalblue;
+}
+div{
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 1px black;
+}
+.key{
+    text-align: center;
+    display:block;
+}
+.CM{
+    color:rgb(86, 3, 164);
+}
+.GM{
+    color:rgb(102, 8, 190);
+}
+.DM{
+    color:rgb(123, 51, 189);
+}
+.AM{
+    color:rgb(0, 226, 226);
+}
+.EM{
+    color:rgb(19, 193, 193);
+}
+.BM{
+    color:rgb(5, 5, 224);
+}
+.FsharpM{
+    color:rgb(18, 18, 180)
+}
+.CsharpM{
+    color:rgb(20, 96, 70);
+}
+.FM{
+    color:rgb(39, 185, 13);
+}
+.BflatM{
+    color:rgb(219, 219, 42);
+}
+.EflatM{
+    color:rgb(252, 252, 119);
+}
+.AflatM{
+    color:rgb(255, 119, 70);
+}
+.DflatM{
+    color:rgb(251, 0, 50);
+}
+.GflatM{
+    color:rgb(186, 12, 47);
+}
+.CflatM{
+    color:rgb(224, 10, 124);
+}
+button{
+    background-color: wheat;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: orange;
+    color: rgb(129, 86, 6);
+}
+button:hover{
+    opacity: 50%;
+}
